@@ -13,14 +13,15 @@
         <ul class="icon-list">
             <li><i class="fas fa-phone"></i></li><span class="phone-number">(+84) 848400676</span></li>            
             <li><i class="fas fa-envelope"></i></li><span class="phone-number">nghianguyen.15.11.v@gmail.com</span></li> 
-            <li><i class="fas fa-map-marker-alt"></i></li><span class="phone-number">Thu Duc, Ho Chi Minh City</span></li> 
+            <li><i class="fas fa-map-marker-alt"></i></li><span class="phone-number">Ho Chi Minh City, Vietnam</span></li> 
         </ul>
     </div>
     <div class="container">
         <div class="button-container">
             <button onclick="showContent('introduction')">INTRODUCTION</button>
             <button onclick="showContent('skill')">TOOL</button>
-            <button onclick="showContent('experience')">EXPERIENCE</button>
+            <button onclick="showContent('onpoint')">EXPERIENCE</button>
+            <button onclick="showContent('experience')">EXTRACURRICULAR</button>
             <button onclick="showContent('certificate')">CERTIFICATE</button>
             <button onclick="showContent('project')">PROJECT</button>
         </div>
@@ -42,12 +43,11 @@
                             </div>
                             <div class="intro-text">
                                 <h2>Introduction</h2>
-                                <p>As a senior student in <b class="highlight">E-commerce</b>, I bring a strong academic foundation and a passion for applying my skills in a professional setting.</p>
-                                <p>Throughout my studies, I actively engaged in extracurricular activities and led several successful programs. These experiences allowed me to develop valuable soft skills, particularly in time management and team leadership, giving me a well-rounded perspective essential for thriving in a dynamic work environment.</p>
-                                <p>Furthermore, I used to work as a store employee at a 5-star fast food restaurant chain, during which I was exposed to and understood more about the retail industry.</p>
-                                <p>With a focus on E-commerce projects and a diverse curriculum, I am confident in my ability to meet the demands of your position.</p>
-                                <p><i>I invite you to explore the skills and knowledge I've developed over the past years!</i></p>
-                            </div>
+                                <p>As a Bachelor of <b class="highlight">E-commerce</b>, I am passionate about building a long-term career in Ecommerce Communication, where creativity, strategy, and data come together to shape consumer experience on digital platforms.</p>
+                                <p>Throughout my academic and professional journey, I have actively participated in various E-Marketing projects including <b class="highlight">Mega Livestreams, Affiliate Campaigns, and brand events</b> on platforms like <b class="highlight">TikTok Shop, Shopee, and Meta</b>. These hands-on experiences have not only sharpened my technical and analytical skills but also deepened my understanding of how communication drives performance in a highly competitive e-commerce landscape.</p>
+                                <p>I aim to become a dynamic and data-driven communication strategist - crafting meaningful narratives, connecting brands with customers, and contributing to impactful digital campaigns that boost both engagement and revenue.</p>
+                                <p><i>Let’s explore how I can bring value to your team through communication that converts.</i></p>
+                                </div>
                         </div>
                     </section>
                 `;
@@ -85,6 +85,32 @@
                         </div>
                     </div>
                 `;
+            } else if (section === 'onpoint') {
+    content.innerHTML = `
+        <section id="onpoint-experience">
+            <div class="experience-card">
+                    <h2>ONPOINT E-COMMERCE VIETNAM</h2>
+                    <p><b>Brand Acquisition Executive</b> | 01/2025 - 07/2025</p>
+                <div class="experience-body">
+                    <div class="experience-text">
+                        <ul>
+                            <li>Searched for and successfully acquired <b>30 new brands</b> (FMCG, Mom & Baby, etc.) with tailored marketing proposals on <b>Shopee, TikTok, Meta</b>.</li>
+                            <li>Served as the <b>main point of contact</b> with brand teams, managing campaign briefs & coordinating cross-functionally (Creative, Production, Logistics, Payment partners).</li>
+                            <li>Coordinated <b>6 Livestreams on Meta</b> (Huggies, Brother, Nutifood), <b>15 Livestream/Affiliate campaigns</b> (LEGO, PUMA, LOF, Karismar, Ba Vi Milk), and <b>3 AI video projects</b>.</li>
+                            <li>Managed client data & campaign performance, prepared reports, tracked KPIs, optimized strategies.</li>
+                            <li>Contributed to high-impact campaigns: <b>LEGO – Super Brand Day 15.5</b>, <b>ONPOINT – Megalive Dealchelin</b>, <b>Kimberly-Clark – Super Huggies Day</b>.</li>
+                        </ul>
+                    </div>
+    <div class="experience-images">
+        <img src="OP1.jpg" alt="OnPoint Campaign Image 1"/>
+        <img src="OP2.jpg" alt="OnPoint Campaign Image 2"/>
+
+    </div>
+                </div>
+            </div>
+        </section>
+    `;
+
             } else if (section === 'experience') {
                 content.innerHTML = `
                     <div class="experience-header">
@@ -116,9 +142,11 @@
         <h2 class="section-title">Foreign Language Certificates:</h2>
         <div class="certificate-container">
             <div class="certificate-item">
+                <img src="ChungchiLR.jpg" alt="Toeic SW Certificate" class="certificate-img"/>
+                <p class="certificate-title"><i>Toeic Listening & Reading</i></p>
+            <div class="certificate-item">
                 <img src="ChungchiSW.jpg" alt="Toeic SW Certificate" class="certificate-img"/>
                 <p class="certificate-title"><i>Toeic Speaking & Writing</i></p>
-
         <h2 class="section-title">Collaborator Certificates:</h2>
         <div class="certificate-container">
             <div class="certificate-item">
